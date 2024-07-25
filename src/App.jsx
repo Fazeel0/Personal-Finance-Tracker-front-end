@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/shared/Layout";
-import Budget from "./components/Budget";
-import Expense from "./components/Expense";
-import Dashboard from "./components/Dashboard";
-import Login from "./components/Login";
-import Signup from "./components/Signup";
-import ForgetPass from "./components/ForgetPass";
+import Budget from "./components/pages/Budget";
+import Expense from "./components/pages/Expense";
+import Dashboard from "./components/pages/Dashboard";
+import Login from "./components/pages/Login";
+import Signup from "./components/pages/Signup";
+import ForgetPass from "./components/pages/ForgetPass";
 
 function App() {
   return (
